@@ -1,0 +1,12 @@
+{
+  "compilerOptions": { // https://www.tslang.cn/docs/handbook/compiler-options.html
+    "target": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "esModuleInterop": true
+  },
+  "typings": "./typings/index.d.ts"
+//  "include": [
+//    "src", "typings"
+//  ]
+}

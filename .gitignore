@@ -1,9 +1,21 @@
-.idea*
+# docz
+*.doc*
 
+# idea
+*.idea
+
+# Logs
+logs
+*.log*
+
+/dist
 /node_modules
 /coverage
-/packages/*/lib
-/packages/*/node_modules
-/packages/*/.local
 /.local
 /.changelog
+yarn.lock
+package-lock.json
+dist
+/src
+/.vscode
+.eslintcache

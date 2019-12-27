@@ -1,7 +1,28 @@
 {
   "name": "beast",
   "private": true,
+  "scripts": {
+    "cov": "father test --coverage --collectCoverageFrom=packages/**/**/src/**.{js.jsx,tsx,ts}",
+    "doc:dev": "father doc dev",
+    "doc:build": "father doc build",
+    "doc:deploy": "father doc deploy",
+    "doc:sh": "sh ./scripts/doc_deploy.sh",
+    "watch": "father build --watch",
+    "build": "father build",
+    "bootstrap": "lerna bootstrap",
+    "changelog": "lerna-changelog",
+    "clean": "lerna clean -y",
+    "test": "umi-test --coverage",
+    "debug": "umi-test",
+    "publish": "umi-test && npm run changelog && npm run build && lerna publish"
+  },
   "devDependencies": {
-    "lerna": "^3.19.0"
+    "father": "^2.29.1",
+    "lerna": "^3.19.0",
+    "lerna-changelog": "^0.8.3",
+    "umi-test": "^1.9.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.7"
   }
 }
