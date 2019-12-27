@@ -13,8 +13,6 @@ logs
 /coverage
 /.local
 /.changelog
-yarn.lock
-package-lock.json
 dist
 /.vscode
 .eslintcache

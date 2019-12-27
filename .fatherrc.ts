@@ -13,10 +13,10 @@ const options: IBundleOptions = {
     //     // themeConfig: { mode: 'dark' },
     //     // base: '/beast'
     // },
-    pkgs: [
-        'beast-utils',
-        'beast-lib',
-    ],
+    // pkgs: [
+    //     'beast-utils',
+    //     'beast-lib',
+    // ],
     // 是否把 helper 方法提取到 @babel/runtime 里。只对 esm 有效。官网：https://babeljs.io/docs/en/babel-runtime
     runtimeHelpers: true
 };

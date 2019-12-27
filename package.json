@@ -1,6 +1,5 @@
 {
   "name": "beast",
-  "private": true,
   "scripts": {
     "cov": "father test --coverage --collectCoverageFrom=packages/**/**/src/**.{js.jsx,tsx,ts}",
     "doc:dev": "father doc dev",
