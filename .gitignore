@@ -1,9 +1,0 @@
-.idea*
-
-/node_modules
-/coverage
-/packages/*/lib
-/packages/*/node_modules
-/packages/*/.local
-/.local
-/.changelog

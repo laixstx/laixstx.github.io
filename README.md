@@ -1,2 +1,0 @@
-# beast
-mypro
