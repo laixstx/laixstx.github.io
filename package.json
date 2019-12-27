@@ -1,5 +1,5 @@
 {
-  "name": "beast",
+  "name": "beast-jh",
   "scripts": {
     "cov": "father test --coverage --collectCoverageFrom=packages/**/**/src/**.{js.jsx,tsx,ts}",
     "doc:dev": "father doc dev",
@@ -11,9 +11,9 @@
     "bootstrap": "lerna bootstrap",
     "changelog": "lerna-changelog",
     "clean": "lerna clean -y",
-    "test": "umi-test --coverage",
+    "test": "umi-test --coverage --passWithNoTests",
     "debug": "umi-test",
-    "publish": "umi-test && npm run changelog && npm run build && lerna publish"
+    "publish": "umi-test --passWithNoTests && npm run changelog && npm run build && lerna publish"
   },
   "devDependencies": {
     "father": "^2.29.1",
@@ -23,5 +23,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.7.7"
-  }
+  },
+  "version": "0.0.1"
 }
